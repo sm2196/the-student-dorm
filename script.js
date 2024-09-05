@@ -99,12 +99,17 @@ addEventOnElem(window, "scroll", scrollReveal);
 
 
 
-function countdown(endDate) {
+function countdown(endDateString) {
   let days, hours, minutes, seconds;
   
   setInterval(calculate, 1000);
   
   function calculate() {
+    let endTimestamp = new Date(
+      Date.parse(endDateString)
+    )
+    let endDate = endTimestamp.getTime()
+
     let startDate = new Date();
     startDate = startDate.getTime();
     
@@ -112,13 +117,13 @@ function countdown(endDate) {
     
     if (timeRemaining >= 0) {
       days = parseInt(timeRemaining / 86400);
-      timeRemaining = (timeRemaining % 86400);
+      timeRemaining %= 86400;
       
       hours = parseInt(timeRemaining / 3600);
-      timeRemaining = (timeRemaining % 3600);
+      timeRemaining %= 3600;
       
       minutes = parseInt(timeRemaining / 60);
-      timeRemaining = (timeRemaining % 60);
+      timeRemaining %= 60;
       
       seconds = parseInt(timeRemaining);
       
@@ -133,5 +138,7 @@ function countdown(endDate) {
 }
 
 // Set the date we're counting down to
-let targetDate = new Date().getTime() + (15 * 24 * 60 * 60 * 1000) + (21 * 60 * 60 * 1000) + (46 * 60 * 1000) + (8 * 1000); // Adjust this to your target date and time
-countdown(targetDate);
+
+let dateString = "September 11, 2024 16:14:00";
+
+countdown(dateString);
