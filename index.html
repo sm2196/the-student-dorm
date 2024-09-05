@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Student Dorm</title>
+
+    <!-- - favicon -->
+    <link rel="shortcut icon" href="media/favicon.png" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="media/logo-no-background.png">
+    <link rel="preload" as="image" href="media/hero1.jpg">
+    <link rel="preload" as="image" href="media/hero2.jpg">
+    <link rel="preload" as="image" href="media/hero3.jpg">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+
+        <div class="header-top" data-header>
+            <div class="container">
+
+                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+
+                <div class="input-wrapper">
+                    <input type="search" name="search" placeholder="Search accomodation" class="search-field">
+
+                    <button class="search-submit" aria-label="search">
+                        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="media/logo-no-background.png" width="179" height="26" alt="Company name">
+                </a>
+
+                <div class="header-actions">
+
+                    <a href="login.html" class="header-action-btn-link">
+                        <button class="header-action-btn" aria-label="user">
+                          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                      </a>
+
+                    <button class="header-action-btn" aria-label="favourite item">
+                        <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+                        <span class="btn-badge">2</span>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="cart item">
+                        <data class="btn-text" value="0">AED 25.00</data>
+
+                        <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+                        <span class="btn-badge">3</span>
+                    </button>
+
+                </div>
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link has-after">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#collection" class="navbar-link has-after">Collection</a>
+                        </li>
+
+                        <li>
+                            <a href="#shop" class="navbar-link has-after">Shop</a>
+                        </li>
+
+                        <li>
+                            <a href="#offer" class="navbar-link has-after">Offer</a>
+                        </li>
+
+                        <li>
+                            <a href="#blog" class="navbar-link has-after">Blog</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
+
+            <div class="wrapper">
+                <a href="#" class="logo">
+                    <img src="media/logo-no-background.png" width="179" height="26" alt="Company name">
+                </a>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+
+                <li>
+                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                    <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+                </li>
+
+                <li>
+                    <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+                </li>
+
+                <li>
+                    <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="section hero" id="home" aria-label="hero" data-section>
+                <div class="container">
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image"
+                                style="background-image: url('media/hero1.jpg')">
+
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Check out<br>
+                                        our offers right away
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam
+                                        accusamus molestias repellat necessitatibus fugit molestiae dolores, non
+                                        assumenda saepe! Rem repellat corrupti facilis veniam, ullam nam expedita quidem
+                                        animi.
+                                    </p>
+
+                                    <p class="price">Starting from AED 20</p>
+
+                                    <a href="#" class="btn btn-primary">Click here</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image"
+                                style="background-image: url('./media/hero-banner-2.jpg')">
+
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Find your<br>
+                                        university
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam
+                                        accusamus molestias repellat necessitatibus fugit molestiae dolores, non
+                                        assumenda saepe! Rem repellat corrupti facilis veniam, ullam nam expedita quidem
+                                        animi.
+                                    </p>
+
+                                    <p class="price">Starting at AED 7.99</p>
+
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image"
+                                style="background-image: url('./media/hero-banner-3.jpg')">
+
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Dont know<br>
+                                        how to reach out?
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eaque assumenda
+                                        ex quae velit repellat rerum, sequi alias ad fuga sed illum, laborum
+                                        necessitatibus tempore sit nemo autem repellendus? Rem?
+                                    </p>
+
+                                    <p class="price">Starting at AED 7.99</p>
+
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #COLLECTION
+      -->
+
+            <section class="section collection" id="collection" aria-label="collection" data-section>
+                <div class="container">
+
+                    <ul class="collection-list">
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Summer Offers</h2>
+
+                                <p class="card-text">PRICE</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">View More</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                                <div class="has-bg-image"
+                                    style="background-image: url('')"></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Winter Offers</h2>
+
+                                <p class="card-text">PRICE</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Discover Now</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                                <div class="has-bg-image"
+                                    style="background-image: url('./media/collection-2.jpg')"></div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Card Offers</h2>
+
+                                <p class="card-text">PRICE</p>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Discover Now</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                                <div class="has-bg-image"
+                                    style="background-image: url('./media/collection-3.jpg')"></div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #SHOP
+      -->
+
+            <section class="section shop" id="shop" aria-label="shop" data-section>
+                <div class="container">
+
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Offers near you</h2>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">View all</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/ABC.jpg" width="540" height="720" loading="lazy"
+                                        alt="ABC" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">AED 39.00</del>
+
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">ABC</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/DEF.jpg" width="540" height="720" loading="lazy"
+                                        alt="DEF" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">DEF</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/GHI.jpg" width="540" height="720" loading="lazy"
+                                        alt="GHI" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">GHI</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/JKL.jpg" width="540" height="720" loading="lazy"
+                                        alt="JKL" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">JKL</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/MNO.jpg" width="540" height="720" loading="lazy"
+                                        alt="MNO" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">AED 39.00</del>
+
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">MNO</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/PQR.jpg" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">PQR</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <section class="section shop" id="shop" aria-label="shop" data-section>
+                <div class="container">
+
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Under AED 25</h2>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">Shop All Products</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/ABC2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">AED 39.00</del>
+
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">ABC</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/DEF2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">DEF</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/GHI 2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">GHI</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/JKL2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">JKL</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/MNO 2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">AED 39.00</del>
+
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">MNO</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="media/PQR 2.jpg" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">AED 29.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">PQR</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">5170 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #BANNER
+      -->
+
+            <section class="section banner" aria-label="banner" data-section>
+                <div class="container">
+
+                    <ul class="banner-list">
+
+                        <li>
+                            <div class="banner-card banner-card-1 has-before hover:shine">
+
+                                <p class="card-subtitle">Our Latest</p>
+
+                                <h2 class="h2 card-title">Discover Our Other Inclusive offers</h2>
+
+                                <a href="#" class="btn btn-secondary">Explore More</a>
+
+                                <div class="has-bg-image" style="background-image: url('media/banner\ 1.jpg')">
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="banner-card banner-card-2 has-before hover:shine">
+
+                                <h2 class="h2 card-title">25% off on any accomodation of abc company</h2>
+
+                                <p class="card-text">
+                                25% off for 3 months in all of their accomodations  
+                                </p>
+
+                                <a href="#" class="btn btn-secondary">View More</a>
+
+                                <div class="has-bg-image" style="background-image: url('media/banner\ 2.jpg')">
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #FEATURE
+      -->
+
+            <section class="section feature" aria-label="feature" data-section>
+                <div class="container">
+
+                    <h2 class="h2-large section-title">Why Us?</h2>
+
+                    <ul class="flex-list">
+
+                        <li class="flex-item">
+                            <div class="feature-card">
+
+                                <img src="media/guaranteed pure.jpg" width="204" height="236" loading="lazy"
+                                    alt="Guaranteed PURE" class="card-icon">
+
+                                <h3 class="h3 card-title">All inspected</h3>
+
+                                <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iusto ex. Reprehenderit beatae quibusdam quae modi, quaerat maxime sequi sed doloremque amet, hic dolorem sapiente consequatur laborum excepturi maiores laudantium?
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li class="flex-item">
+                            <div class="feature-card">
+
+                                <img src="media/cruelty free.jpg" width="204" height="236" loading="lazy"
+                                    alt="Completely Cruelty-Free" class="card-icon">
+
+                                <h3 class="h3 card-title">7-days refund</h3>
+
+                                <p class="card-text">
+                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti saepe nam accusamus magnam recusandae, consequatur debitis, provident atque sed, inventore aperiam ut maxime minus voluptates vitae? Harum, cumque consectetur?
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li class="flex-item">
+                            <div class="feature-card">
+
+                                <img src="media/safe.jpg" width="204" height="236" loading="lazy"
+                                    alt="Ingredient Sourcing" class="card-icon">
+
+                                <h3 class="h3 card-title">Best & Safe for your children</h3>
+
+                                <p class="card-text">
+                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod modi itaque vero, possimus corporis totam quo tempore officiis, maiores animi minima nesciunt saepe consectetur ipsam eaque neque magnam eligendi explicabo.
+                                </p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #OFFER
+      -->
+
+            <section class="section offer" id="offer" aria-label="offer" data-section>
+                <div class="container">
+
+                    <figure class="offer-banner">
+                        <img src="media/PQR.jpg" width="305" height="408" loading="lazy"
+                            alt="accomodation pic 1" class="w-100">
+
+                        <img src="media/PQR 2.jpg" width="450" height="625" loading="lazy"
+                            alt="accomodation pic 2" class="w-100">
+                    </figure>
+
+                    <div class="offer-content">
+
+                        <p class="offer-subtitle">
+                            <span class="span">Monthly Offer</span>
+
+                            <span class="badge" aria-label="20% off">-20%</span>
+                        </p>
+
+                        <h2 class="h2-large section-title">ABC Accomodation</h2>
+
+                        <p class="section-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat animi provident ex odio expedita quos repellendus voluptatem, sint id iusto accusamus magni nobis ea quia officiis dolore quas reprehenderit ad.       
+                        </p>
+
+                        <div class="countdown">
+                            <span class="time" id="days" aria-label="days">15</span>
+                            <span class="time" id="hours" aria-label="hours">21</span>
+                            <span class="time" id="minutes" aria-label="minutes">46</span>
+                            <span class="time" id="seconds" aria-label="seconds">08</span>
+                          </div>
+
+                        <a href="#" class="btn btn-primary">Reserve Now</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #BLOG
+      -->
+
+            <section class="section blog" id="blog" aria-label="blog" data-section>
+                <div class="container">
+
+                    <h2 class="h2-large section-title">More to Discover</h2>
+
+                    <ul class="flex-list">
+
+                        <li class="flex-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-before hover:shine"
+                                    style="--width: 700; --height: 450;">
+                                    <img src="media/find more.jpg" width="700" height="450" loading="lazy"
+                                        alt="Find a Store" class="img-cover">
+                                </figure>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Find More</a>
+                                </h3>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">Our Store</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="flex-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-before hover:shine"
+                                    style="--width: 700; --height: 450;">
+                                    <img src="media/our blog.jpg" width="700" height="450" loading="lazy"
+                                        alt="From Our Blog" class="img-cover">
+                                </figure>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Our Blog</a>
+                                </h3>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">View our Blog</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="flex-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-before hover:shine"
+                                    style="--width: 700; --height: 450;">
+                                    <img src="media/our story.jpg" width="700" height="450" loading="lazy"
+                                        alt="Our Story" class="img-cover">
+                                </figure>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Our Story</a>
+                                </h3>
+
+                                <a href="#" class="btn-link">
+                                    <span class="span">About Us</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" data-section>
+        <div class="container">
+
+            <div class="footer-top">
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Our Company</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text">
+                            Start right away by viewing <a href="#" class="link">Our Offers</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-text">hello@domain.com</p>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Useful links</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">New Products</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Best Sellers</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Bundle & Save</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Online Gift Card</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">About Us</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Want a Refund?</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Shipping FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Terms & Conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Our Privacy Policy</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer-list">
+
+                    <p class="newsletter-title">Good emails.</p>
+
+                    <p class="newsletter-text">
+                        Enter your email below to be the first to know about new collections and product launches.
+                    </p>
+
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email_address" placeholder="Enter your email address" required
+                            class="email-field">
+
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="wrapper">
+                    <p class="copyright">
+                        &copy; 2022
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="./media/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+                </a>
+
+                <img src="./media/pay.png" width="313" height="28" alt="available all payment method"
+                    class="w-100">
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="script.js" defer></script>
+    <script src="server.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

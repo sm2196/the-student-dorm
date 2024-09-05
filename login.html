@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="signup_toggle">
+        <form class="form" id="login-form">
+            <div class="form_front">
+                <div class="form_details">Login</div>
+                <input placeholder="Username" class="input" type="text" id="username">
+                <input placeholder="Password" class="input" type="text" id="password">
+                <button class="btn" onclick="login()">Login</button>
+                <span class="switch">Don't have an account? 
+                    <label class="signup_tog" for="signup_toggle">
+                        Sign Up
+                    </label>
+                </span>
+            </div>
+            <div class="form_back">
+                <div class="form_details">SignUp</div>
+                <input placeholder="Firstname" class="input" type="text" id="firstname">
+                <input placeholder="Username" class="input" type="text" id="username_signup">
+                <input placeholder="Password" class="input" type="text" id="password_signup">
+                <input placeholder="Confirm Password" class="input" type="text" id="confirm_password">
+                <button class="btn" onclick="signup()">Signup</button>
+                <span class="switch">Already have an account? 
+                    <label class="signup_tog" for="signup_toggle">
+                        Sign In
+                    </label>
+                </span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            const formData = new FormData(document.getElementById('login-form'));
+            axios.post('/login', formData)
+                .then(response => {
+                    console.log(response);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
+
+        function signup() {
+            const formData = new FormData(document.getElementById('login-form'));
+            axios.post('/signup', formData)
+                .then(response => {
+                    console.log(response);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
+    </script>
+</body>
+</html>
